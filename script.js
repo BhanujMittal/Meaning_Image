@@ -66,6 +66,22 @@ window.addEventListener('load', () => {
     textInput.focus();
 })
 
+document.addEventListener("keydown", function (event) {
+    if (event.keyCode === 39) {
+        // Right arrow key (key code 39)
+        const nextButton = document.querySelector(".carousel-control-next");
+        if (nextButton) {
+            nextButton.click(); // Simulate a click on the "Next" button
+        }
+    } else if (event.keyCode === 37) {
+        // Left arrow key (key code 37)
+        const prevButton = document.querySelector(".carousel-control-prev");
+        if (prevButton) {
+            prevButton.click(); // Simulate a click on the "Previous" button
+        }
+    }
+});
+
 function searchImages(keyword) {
     // Replace 'YOUR_ACCESS_KEY' with your Unsplash API access key
     const apiUrl = `https://api.unsplash.com/search/photos?query=${keyword}&client_id=82rtlb0cOaUk4FhUMt8nCxap809rJm2yXTWIVZYEVVc`;
