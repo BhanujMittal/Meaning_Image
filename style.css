@@ -1,7 +1,11 @@
-body {
-    height: 100%;
+* {
+    color: #fff !important;
 }
 
+body {
+    height: 100%;
+    background-color: black !important;
+}
 
 .meaning {
     flex-wrap: wrap;
@@ -13,6 +17,14 @@ body {
     color: #fff !important;
 }
 
+input[type="text"] {
+    color: #000 !important;
+}
+
+.btn {
+    color: #fff !important;
+}
+
 img {
     width: 800px;
     height: 500px !important;
@@ -20,6 +32,10 @@ img {
 
 #carouselExampleFade {
     justify-content: center;
+}
+
+.carousel-inner {
+    width: 60vw !important;
 }
 
 ul {
@@ -36,6 +52,13 @@ img {
 button[type="button"] {
     width: 40px !important;
 }
+
+/* Change the color of carousel control buttons to black */
+.carousel-control-prev,
+.carousel-control-next {
+    color: black;
+}
+
 
 @media (max-width: 950px) {
     form {
