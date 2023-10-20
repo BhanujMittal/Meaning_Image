@@ -25,17 +25,12 @@ input[type="text"] {
     color: #fff !important;
 }
 
-img {
-    width: 800px;
-    height: 500px !important;
-}
-
 #carouselExampleFade {
     justify-content: center;
 }
 
 .carousel-inner {
-    width: 60vw !important;
+    width: 40vw !important;
 }
 
 ul {

@@ -4,7 +4,6 @@ const meaningContainer = document.getElementsByClassName('meaning')[0];
 const carouselInner = document.createElement('div')
 carouselInner.setAttribute('class', 'carousel-inner')
 
-
 const getMeaning = async (word) => {
     try {
         let p = await fetch('https://api.dictionaryapi.dev/api/v2/entries/en/' + word)
