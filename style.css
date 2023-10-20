@@ -1,0 +1,63 @@
+body {
+    height: 100%;
+}
+
+
+.meaning {
+    flex-wrap: wrap;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.btn:hover {
+    color: #fff !important;
+}
+
+img {
+    width: 800px;
+    height: 500px !important;
+}
+
+#carouselExampleFade {
+    justify-content: center;
+}
+
+ul {
+    margin-bottom: 2rem;
+}
+
+img {
+    border-radius: 5px;
+    width: 100%;
+    height: 50vh !important;
+    background-size: cover !important;
+}
+
+button[type="button"] {
+    width: 40px !important;
+}
+
+@media (max-width: 950px) {
+    form {
+        flex-direction: column !important;
+    }
+    ul {
+        padding: 0px 1.5rem !important;
+        gap: .5rem !important;
+        width: 100% !important;
+    }
+    
+    .carousel-inner {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 500px) {
+    img {
+        height: 30vh !important;
+    }
+
+    li {
+        font-size: 1rem !important;
+    }
+}
